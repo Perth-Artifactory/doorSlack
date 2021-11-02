@@ -3,8 +3,8 @@ This code is designed to create a control interface for DoorBot via Slack.
 
 ## Requirements
 
-* [slack_bolt](https://github.com/slackapi/bolt-python)
-* serial
+* [slack_bolt](https://pypi.org/project/slack-bolt/)
+* [pyserial](https://pypi.org/project/pyserial/)
 
 ### Linux
 
