@@ -176,7 +176,7 @@ def action_button_click(body, ack, say):
 
 # Prewritten message
 @app.action("sendMessage")
-def handle_some_action(ack, body, say):
+def sendMessage(ack, body, say):
     ack()
     if checkAuth(body):
         messages = {"key_disabled":"noticeDisabled",
