@@ -1,0 +1,5 @@
+{"SLACK_APP_TOKEN": "",
+ "SLACK_BOT_TOKEN": "",
+ "doorAccess": false,
+ "arduino": {"pointer":"/dev/ttyACM0","baudrate":9600},
+ "channel": "C0XXXXXXXXX"}
