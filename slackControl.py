@@ -27,7 +27,7 @@ def tts(s,OS="UNIX"):
     if OS == "WIN":
         os.system('wsay.exe "{}"'.format(s))
     elif OS == "UNIX":
-        os.system("say '{}' &".format(s))
+        os.system("echo {}|espeak &".format(s))
 
 # Check whether a user/channel is authorised
 def checkAuth(b):

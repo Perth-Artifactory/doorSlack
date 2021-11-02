@@ -1,3 +1,2 @@
 slack_bolt
-pyttsx3
 serial
