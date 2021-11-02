@@ -1,2 +1,2 @@
-slack_bolt
+slack-bolt
 serial
